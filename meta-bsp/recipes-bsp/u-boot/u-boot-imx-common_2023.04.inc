@@ -7,7 +7,7 @@ UBOOT_SRC ?= "git://git@github.com/O-Software-Team/uboot-imx.git;protocol=ssh"
 SRC_URI = "${UBOOT_SRC};branch=${SRCBRANCH}"
 SRCBRANCH = "lf_v2023.04"
 LOCALVERSION ?= "-${SRCBRANCH}"
-SRCREV = "97658e192856d339fc58586719a50b337b316d6d"
+SRCREV = "a66e8e672fc75592bded2797572ecc2ffdd5d804"
 
 DEPENDS += " \
     bc-native \
